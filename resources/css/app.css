@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .glow{
+        @apply text-neutral-300 hover:font-medium hover:shadow shadow-white
+    }
+}
